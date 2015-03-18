@@ -1,0 +1,5 @@
+samples/Owin.Samples/packages/
+samples/Owin.Samples/OwinSelfHost/obj/
+samples/Owin.Samples/OwinSelfHost/bin/
+samples/Owin.Samples/OwinSelfHostWebApi/obj/
+samples/Owin.Samples/OwinSelfHostWebApi/bin/
