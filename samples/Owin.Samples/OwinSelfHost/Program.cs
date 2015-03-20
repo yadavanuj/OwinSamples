@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Owin.Hosting;
+using System.Diagnostics;
 
 namespace OwinSelfHost
 {
@@ -13,6 +14,7 @@ namespace OwinSelfHost
         {
             using (WebApp.Start<Startup>("http://localhost:12345"))
             {
+                Process.Start("http://localhost:12345");
                 Console.ReadLine();
             }
         }
